@@ -45,19 +45,19 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       title: 'Email',
-      content: 'hello@devteampro.com',
-      link: 'mailto:hello@devteampro.com'
+      content: 'hello@devapps.io',
+      link: 'mailto:hello@devapps.io'
     },
     {
       icon: Phone,
       title: 'Phone',
-      content: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      content: '+62 812-0000-0000',
+      link: 'tel:+6281200000000'
     },
     {
       icon: MapPin,
       title: 'Location',
-      content: 'San Francisco, CA',
+      content: 'Bandung, Indonesia',
       link: 'https://maps.google.com'
     }
   ];

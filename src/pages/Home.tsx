@@ -23,7 +23,7 @@ const Home: React.FC = () => {
               </span>
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
-              We are DevTeam Pro – a passionate collective of developers, designers, and innovators 
+              We are DevApps – a passionate collective of developers, designers, and innovators 
               creating cutting-edge solutions that transform ideas into reality.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -1,48 +1,70 @@
 import { TeamMember } from '../types';
 
-export const teamMembers: TeamMember[] = [
+export const teamMembers = [
   {
     id: '1',
-    name: 'Alex Johnson',
-    role: 'Full Stack Developer & Team Lead',
-    bio: 'Passionate about creating scalable web applications and leading development teams. Specializes in React ecosystem and cloud architecture.',
-    skills: ['React', 'Node.js', 'TypeScript', 'AWS', 'Docker', 'GraphQL'],
+    name: 'Farhan Rachmat Syahrizal',
+    role: 'Web Developer & QA Engineer',
+    description: 'Experienced in Laravel backend development and automated testing using Katalon Studio.',
+    skills: ['Laravel', 'PHP', 'REST API', 'Katalon Studio'],
     image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
-    linkedin: 'https://linkedin.com/in/alexjohnson',
-    github: 'https://github.com/alexjohnson',
-    email: 'alex@teamexample.com'
+    linkedin: '',
+    github: '',
+    email: ''
   },
   {
     id: '2',
-    name: 'Sarah Chen',
-    role: 'Frontend Developer & UI/UX Designer',
-    bio: 'Creative developer with an eye for design. Loves crafting beautiful, accessible user interfaces and smooth user experiences.',
-    skills: ['React', 'Vue.js', 'Figma', 'Tailwind CSS', 'Framer Motion', 'Adobe XD'],
-    image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
-    linkedin: 'https://linkedin.com/in/sarahchen',
-    github: 'https://github.com/sarahchen',
-    email: 'sarah@teamexample.com'
+    name: 'Rully D Fashal',
+    role: 'Web Developer',
+    description: 'Contributor to multiple backend and QA projects.',
+    skills: [],
+    image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
+    linkedin: '',
+    github: '',
+    email: ''
   },
   {
     id: '3',
-    name: 'Marcus Rodriguez',
-    role: 'Backend Developer & DevOps Engineer',
-    bio: 'Infrastructure enthusiast who ensures our applications run smoothly and scale efficiently. Expert in cloud technologies and automation.',
-    skills: ['Python', 'Django', 'Kubernetes', 'PostgreSQL', 'Redis', 'CI/CD'],
-    image: 'https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
-    linkedin: 'https://linkedin.com/in/marcusrodriguez',
-    github: 'https://github.com/marcusrodriguez',
-    email: 'marcus@teamexample.com'
+    name: 'Alexandra Lim',
+    role: 'Frontend Developer',
+    description: 'Specializes in building responsive user interfaces with React and Tailwind.',
+    skills: ['React', 'Tailwind CSS', 'JavaScript'],
+    image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
+    linkedin: '',
+    github: '',
+    email: ''
   },
   {
     id: '4',
-    name: 'Emily Watson',
-    role: 'Mobile Developer & QA Lead',
-    bio: 'Mobile-first developer with a passion for quality assurance. Ensures our applications work flawlessly across all platforms.',
-    skills: ['React Native', 'Flutter', 'Jest', 'Cypress', 'Mobile Testing', 'Agile'],
-    image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
-    linkedin: 'https://linkedin.com/in/emilywatson',
-    github: 'https://github.com/emilywatson',
-    email: 'emily@teamexample.com'
+    name: 'David Santoso',
+    role: 'Backend Developer',
+    description: 'Focuses on scalable API development and database design.',
+    skills: ['Node.js', 'PostgreSQL', 'REST API'],
+    image: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
+    linkedin: '',
+    github: '',
+    email: ''
+  },
+  {
+    id: '5',
+    name: 'Nadia Ayu',
+    role: 'UI/UX Designer',
+    description: 'Designs user-friendly interfaces with modern tools.',
+    skills: ['Figma', 'Adobe XD'],
+    image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
+    linkedin: '',
+    github: '',
+    email: ''
+  },
+  {
+    id: '6',
+    name: 'Iqbal Ramadhan',
+    role: 'QA Automation',
+    description: 'Handles test automation with Selenium and Katalon for reliable releases.',
+    skills: ['Katalon', 'Selenium', 'CI/CD'],
+    image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
+    linkedin: '',
+    github: '',
+    email: ''
   }
 ];

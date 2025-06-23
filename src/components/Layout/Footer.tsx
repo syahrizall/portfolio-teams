@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
               <div className="p-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg">
                 <Code2 className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold">DevTeam Pro</span>
+              <span className="text-xl font-bold">DevApps</span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
               We are a passionate team of developers creating innovative solutions 
@@ -95,7 +95,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} DevTeam Pro. All rights reserved.
+            &copy; {new Date().getFullYear()} DevApps. All rights reserved.
           </p>
         </div>
       </div>
