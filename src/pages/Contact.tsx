@@ -22,12 +22,19 @@ const Contact: React.FC = () => {
     }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    // Format pesan untuk WhatsApp
+    const whatsappMessage = `*New Contact Form Submission*%0A%0A` +
+      `*Name:* ${formData.name}%0A` +
+      `*Email:* ${formData.email}%0A` +
+      `*Subject:* ${formData.subject}%0A` +
+      `*Message:* ${formData.message}`;
+    
+    // Buka WhatsApp dengan pesan yang sudah diformat
+    window.open(`https://wa.me/62881022008788?text=${whatsappMessage}`, '_blank');
     
     // Reset form
     setFormData({
@@ -38,7 +45,6 @@ const Contact: React.FC = () => {
     });
     
     setIsSubmitting(false);
-    alert('Thank you for your message! We\'ll get back to you soon.');
   };
 
   const contactInfo = [
