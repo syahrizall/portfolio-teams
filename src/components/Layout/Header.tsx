@@ -25,11 +25,12 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="p-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg">
-              <Code2 className="w-6 h-6 text-white" />
+            <div className="p-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg">
+              {/* <Code2 className="w-6 h-6 text-white" /> */}
+              <img src="/portfolio-teams/Parallax_img.png" alt="Parallax Icon" className="w-9 h-9 text-white" />
             </div>
             <span className="text-xl font-bold text-gray-900 dark:text-white">
-              DevApps
+              Parallax Code
             </span>
           </Link>
 

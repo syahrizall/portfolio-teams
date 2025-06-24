@@ -41,7 +41,7 @@ const About: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            About DevApps
+            About Parallax Code
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             We are more than just a development team – we're innovators, problem-solvers, 
@@ -58,7 +58,7 @@ const About: React.FC = () => {
               </h2>
               <div className="prose prose-lg max-w-none text-gray-600 dark:text-gray-300">
                 <p className="mb-6">
-                  DevApps was born from a shared vision: to create a development team that 
+                  Parallax Code was born from a shared vision: to create a development team that 
                   combines technical excellence with creative innovation. What started as a group 
                   of passionate developers working on side projects has evolved into a full-service 
                   development team capable of tackling complex challenges across industries.
