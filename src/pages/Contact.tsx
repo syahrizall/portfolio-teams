@@ -51,14 +51,14 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       title: 'Email',
-      content: 'hello@devapps.io',
-      link: 'mailto:hello@devapps.io'
+      content: 'hello@Parallax.io',
+      link: 'mailto:hello@Parallax.io'
     },
     {
       icon: Phone,
       title: 'Phone',
-      content: '+62 812-0000-0000',
-      link: 'tel:+6281200000000'
+      content: '+62 812-3410-4243',
+      link: 'wa.me/+6281234104243'
     },
     {
       icon: MapPin,
@@ -72,19 +72,22 @@ const Contact: React.FC = () => {
     {
       icon: Github,
       name: 'GitHub',
-      url: 'https://github.com/devteampro',
+      // url: 'https://github.com/devteampro',
+      url: '#',
       color: 'hover:text-gray-900 dark:hover:text-white'
     },
     {
       icon: Linkedin,
       name: 'LinkedIn',
-      url: 'https://linkedin.com/company/devteampro',
+      // url: 'https://linkedin.com/company/devteampro',
+      url: '#',
       color: 'hover:text-blue-600'
     },
     {
       icon: Twitter,
       name: 'Twitter',
-      url: 'https://twitter.com/devteampro',
+      // url: 'https://twitter.com/devteampro',
+      url: '#',
       color: 'hover:text-blue-400'
     }
   ];
